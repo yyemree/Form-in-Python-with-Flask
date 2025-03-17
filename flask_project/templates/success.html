@@ -1,0 +1,50 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You</title>
+  </head>
+  <body>
+    <h1 style="text-align: center; color: blue">Thank You for Contacting Us</h1>
+    <p>Your summarized information is below:</p>
+    <table
+      border="1"
+      cellpadding="10"
+      cellspacing="0"
+      style="border-collapse: collapse; width: 100%"
+    >
+      <tr>
+        <th style="text-align: left">Field</th>
+        <th style="text-align: left">Details</th>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td>{{sanitedName}}</td>
+      </tr>
+      <tr>
+        <td>Last Name</td>
+        <td>{{sanitedLastName}}</td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td>{{sanitedEmail}}</td>
+      </tr>
+      <tr>
+        <td>Country</td>
+        <td>{{sanitedCountry}}</td>
+      </tr>
+      <tr>
+        <td>Message</td>
+        <td>{{sanitedMessage}}</td>
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td>{{sanitedGender}}</td>
+      </tr>
+      <tr>
+        <td>Options</td>
+        <td>{{sanitedOption}}</td>
+      </tr>
+    </table>
+  </body>
+</html>
